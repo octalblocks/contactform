@@ -1,0 +1,23 @@
+{
+    "name": "octalblocks/contactform",
+    "authors": [
+        {
+            "name": "Chirag Malaviya",
+            "email": "cdmalaviya@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Octalblocks\\ContactForm\\": "src/"
+        }
+    },
+    "extra": {
+	    "laravel": {
+	        "providers": [
+	            "Octalblocks\\ContactForm\\ContactFormServiceProvider"
+	        ]
+	    }
+	}
+}
